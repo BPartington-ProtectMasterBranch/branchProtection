@@ -22,6 +22,8 @@ To configure the webhook for usage, please do the following:
 ## Create a Repository
 To create a repository to see if all is working as expected, create a new repository from within the organization you setup the webhook for.  You must either select to automatically create a README file when creating the repository, or manually add a file for the master branch to be created and this to work.
 
+You should see output in the Sinatra console window.  In addition to the master branch being protected, you should also see that an issue was created which outlines the protections enabled.
+
 Good luck and enjoy!
 
 
