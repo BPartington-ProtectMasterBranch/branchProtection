@@ -13,7 +13,7 @@ Once ngrok is running, start up your Sinatra server issuing the following from a
 ## Webhook Configuration
 To configure the webhook for usage, please do the following:
  1. Go to the organization settings tab on Github, then select 'Webhooks' from the far left menu.
- 1. Click 'Add ewbhook'
+ 1. Click 'Add webhook'
  1. For the Payload URL enter the Forwarding item from the ngrok console output (it will be something like 'https://5e7fc985.ngrok.io'), and then append '/payload'.  The final value you enter will be something like 'https://5e7fc985.ngrok.io/payload'
  1. Change the Content type to 'application/json'
  1. Select 'Let me select individual events', then select 'Branch or tag creation'
